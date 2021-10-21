@@ -1,0 +1,41 @@
+QPushButton[text="Log In"]{
+    padding : 1px;
+    color : white;
+    background-color : green;
+    border : 2px solid lightgray;
+    border-radius : 8px;
+    min-width: 10em;
+    height : 30px;
+}
+QPushButton[text="Cancel"]{
+    padding : 1px;
+    color : white;
+    background-color : red;
+    border : 2px solid lightgray;
+    border-radius : 8px;
+    height : 30px;
+    min-width: 10em;
+}
+QLineEdit{
+    padding : 1px;
+    border : 2px solid lightgray;
+    border-radius : 8px;
+    color : white;
+    background-color : gray;
+    height : 30px;
+}
+QLabel{
+    color : white;
+    font-weight : bold;
+    font-size : 20px;
+}
+QCheckBox{
+    color : white;
+}
+QCheckBox::indicator:unchecked{
+    background-color: white;
+
+}
+QWidget{
+    background-color : black;
+}
